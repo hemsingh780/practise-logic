@@ -1,0 +1,51 @@
+.FirstP{
+    margin-bottom: 34px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.5;
+    transition: opacity 100ms linear;
+}
+.FirstH1{
+    margin-bottom: 16px;
+    text-align: left;
+    font-size: 60px;
+    line-height: 68px;
+    font-weight: 600;
+    color: #000000;
+}
+.FirstH2{
+    margin-bottom: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #000000;
+    opacity: 0.9;
+    /* display: block; */
+}
+.secondDiv{
+    display: blockz;
+}
+.secondDiv p{
+    margin-bottom: 34px;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.secondDiv button:nth-child(1){
+    margin-left: 5px;
+    color: rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: none;
+    text-decoration: underline;
+}
+.btn2{
+    font-size: 16px;
+    color: #000000;
+    outline: none;
+    border: none;
+    opacity: 0.5;
+    text-decoration: underline;
+    transition: opacity 100ms linear;
+}

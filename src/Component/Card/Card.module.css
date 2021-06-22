@@ -1,0 +1,56 @@
+/* .Card{
+      display: flex;
+    flex: none;
+    width: 328px;
+    margin-right: 32px;
+    position:relative;
+} */
+.Card{
+border: 2px solid transparent;
+transition: border-color 100ms linear;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+height: 100%;
+padding: 24px 24px;
+background: #FFFFFF;
+z-index: 1;
+}
+.img{
+  flex: none;
+  align-items: center;
+  position: relative;
+  width: 280px;
+  height: 168px;
+  margin-bottom: 24px;
+  background-color: #E7E7E9;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 18px;
+  line-height: 24px;
+}
+.text{
+  flex: 1;
+}
+.text h4{
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #000000;
+}
+.text div p{
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  opacity: 0.5;
+}
+.progress{
+  flex: none;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 4px;
+  background: rgba(0, 0, 0, 0.06);
+}
+

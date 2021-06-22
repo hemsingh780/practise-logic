@@ -1,0 +1,78 @@
+
+.parent{
+    position: relative;
+    margin-bottom: 24px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 12px;
+}
+
+.Num{
+    color: #758bff;
+    font-size: 16px;
+}
+.svg{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 33px;
+    margin-right: 24px;
+    font-size: 16px;
+}
+
+.details{
+    text-align: -webkit-match-parent;
+    display: block;
+}
+
+.details h3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.details p{
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.quezzes{
+    position: relative;
+    overflow: hidden;
+    padding: 24px 0;
+}
+
+.quezzesContainer{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 12px;
+}
+.ol{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 0;
+    list-style: none;
+}
+.realSvg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+}

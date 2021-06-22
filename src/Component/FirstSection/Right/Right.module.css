@@ -1,0 +1,95 @@
+.Right{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 460px;
+    padding: 44px 32px;
+    border: 2px solid rgba(0, 0, 0, 0.14);
+    background: #FFFFFF;
+}
+.img{
+    display: block;
+    width: 254px;
+    height: 244px;
+    margin-bottom: 44px;
+}
+.SpanImg{
+    background-image: url(https://ds055uzetaobb.cloudfront.net/brioche/chapter/logic-HzWHci.png?width=254);
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.secondDiv{
+    margin-bottom: 34px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.one{
+    margin-right: 24px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 50%;
+}
+.two{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 50%;
+}
+.one h3{
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #000000;
+    opacity: 0.5;
+}
+.one span{
+    margin: 0 0 12px;
+    font-size: 30px;
+    line-height: 25px;
+    color: #000000;
+}
+.two h3{
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #000000;
+    opacity: 0.5;
+}
+.two span{
+    margin: 0 0 12px;
+    font-size: 30px;
+    line-height: 25px;
+    color: #000000;
+}
+.Right button{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 48px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 600;
+    transition: opacity 100ms linear;
+    font-family: "Soleil", Arial, sans-serif;
+    position: relative;
+    padding: 3px 16px;
+    margin-bottom: 0;
+    line-height: 1.6em;
+    vertical-align: middle;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    transition: box-shadow 100ms linear, color 100ms linear;
+    touch-action: manipulation;
+}

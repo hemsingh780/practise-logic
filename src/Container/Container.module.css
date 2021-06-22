@@ -1,0 +1,6 @@
+.container{
+    min-height: calc(100vh - 60px);
+    color: #FFFFFF;
+    font-family: "Soleil", Arial, sans-serif;
+    background: #FFFFFF;
+}
